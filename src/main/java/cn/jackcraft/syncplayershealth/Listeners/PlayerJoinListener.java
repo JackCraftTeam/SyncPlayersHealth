@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PlayerJoinListener implements Listener {
-    @EventHandler
+    @EventHandler(ignoreCancelled = true)
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
         Map<Double, Double> healthCounts = new HashMap<>();
