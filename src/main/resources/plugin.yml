@@ -1,0 +1,6 @@
+name: SyncPlayersHealth
+version: '${project.version}'
+main: cn.jackcraft.syncplayershealth.SyncPlayersHealth
+load: STARTUP
+authors: [imJack_]
+website: https://github.com/JackCraftTeam/SyncPlayersHealth
