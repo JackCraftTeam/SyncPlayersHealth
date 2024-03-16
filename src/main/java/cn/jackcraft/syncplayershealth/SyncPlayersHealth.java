@@ -5,6 +5,7 @@ import cn.jackcraft.syncplayershealth.Listeners.PlayerJoinListener;
 import cn.jackcraft.syncplayershealth.Listeners.PlayerRegainHealthListener;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SyncPlayersHealth extends JavaPlugin {
@@ -16,6 +17,7 @@ public final class SyncPlayersHealth extends JavaPlugin {
     }
     @Override
     public void onDisable() {
+        HandlerList.unregisterAll(this);
     }
 
     public static void syncHealth(Player player, double health) {
