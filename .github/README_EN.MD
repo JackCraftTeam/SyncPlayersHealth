@@ -16,3 +16,4 @@ Just put it directly into the `plugins` folder. There is no configuration file o
 ### Other Projects
 #### Entertainment
 - [SyncPlayersItemSlots](https://github.com/JackCraftTeam/SyncPlayersItemSlots) - Synchronizes the currently selected inventory slots of all players.
+- [SyncPlayersFoodLevel](https://github.com/JackCraftTeam/SyncPlayersFoodLevel) - Synchronizes the food levels of all players.

@@ -16,3 +16,4 @@ README> 中文 | [English](.github/README_EN.MD)
 ### 其它项目
 #### 娱乐类
 - [SyncPlayersItemSlots](https://github.com/JackCraftTeam/SyncPlayersItemSlots) - 同步所有玩家当前选择的物品栏槽位。
+- [SyncPlayersFoodLevel](https://github.com/JackCraftTeam/SyncPlayersFoodLevel) - 同步所有玩家的饥饿值。
